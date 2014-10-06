@@ -1,0 +1,100 @@
+/* - Your Styles Here - */
+
+
+$blue: #0672a0;
+$red: #c2253a;
+$green: #61BC60;
+$yellow: #fcc062;
+
+
+#main-content {
+	width: 100%;
+	max-width: 960px;
+}
+
+
+.the-map {
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+
+	path {
+	    stroke-linejoin: round;
+	    stroke-linecap: round;
+	}
+
+	.background {
+	  fill: none;
+	  pointer-events: all;
+	}
+
+	.feature {
+	  fill: #ccc;
+	  cursor: pointer;
+	}
+
+	.feature.active {
+	  fill: $yellow;
+	}
+
+
+	.group.states {
+		visibility : visible;
+	}
+
+	path.state {
+		fill: $red;
+	}
+
+	path.state-boundaries {
+		stroke: #fff;
+		stroke-width: 1.5px;
+		fill: none;
+	}
+
+	.group.districts {
+		visibility : hidden;
+	}
+
+	path.district {
+		stroke: #fff;
+		stroke-width: .5px;
+		fill: $blue;
+	}
+
+	path.district-boundaries {
+		stroke: #fff;
+		stroke-width: .5px;
+		fill: none;
+	}
+
+
+	.group.counties {
+		visibility : hidden;
+	}
+
+	path.county {
+		stroke: #fff;
+		stroke-width: .5px;
+		fill: $green;
+	}
+
+}
+
+
+
+
+/* - Narrow desktop view - */
+@media screen and (max-width: 960px){
+
+}
+
+/* - iPad view - */
+@media screen and (max-width: 748px){
+
+}
+
+/* - Mobile view - */
+@media screen and (max-width: 500px){
+
+}

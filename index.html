@@ -1,0 +1,85 @@
+<!doctype html>
+<!--[if lt IE 7 ]>
+<html lang="en" class="no-js ie6">
+<![endif]-->
+<!--[if IE 7 ]>
+<html lang="en" class="no-js ie7">
+<![endif]-->
+<!--[if IE 8 ]>
+<html lang="en" class="no-js ie8">
+<![endif]-->
+<!--[if IE 9 ]>
+<html lang="en" class="no-js ie9">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+  <title>Graphic title here - WSJ.com</title><?php /* EDIT ME */ ?>
+
+  <link rel="shortcut icon" href="http://si.wsj.net/favicon.ico"/>
+  <link rel="apple-touch-icon" href="http://s.wsj.net/apple-touch-icon.png"/>
+
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ 
+  <link rel="stylesheet" href="http://fonts.wsj.net/HCo_Whitney/font_HCo_Whitney.css" type="text/css"/>
+  <link rel="stylesheet" href="http://fonts.wsj.net/HCo_Chronicle/font_HCo_Chronicle.css" type="text/css"/>
+
+  <link rel="stylesheet" href="http://graphics.wsj.com/libs/css/bootstrap/3.2.0/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+<body class="">
+
+  <div id="main-wrapper" class="">
+    <div id="main-content" class="container">
+      <header class="row"></header>
+
+      <section class="row">
+
+        <div class='col-md-12'>
+          <div class='the-map'></div>
+        </div>
+
+        <div class='col-md-12'>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default map-state" val='states'>States</button>
+            <button type="button" class="btn btn-default map-state" val='districts'>Districts</button>
+            <button type="button" class="btn btn-default map-state" val='counties'>Counties</button>
+          </div>
+          <div class="btn-group">
+            <!--
+            <button type="button" class="btn btn-default zoom-in">Zoom In</button>
+            <button type="button" class="btn btn-default zoom-out">Zoom Out</button>
+            -->
+            <button type="button" class="btn btn-default reset-map">Reset</button>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+  </div>
+
+  <footer></footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/underscore-min.js"></script>
+
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  
+
+  <script src="http://graphics.wsj.com/libs/js/bootstrap/3.2.0/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>

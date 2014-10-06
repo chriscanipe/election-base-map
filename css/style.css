@@ -1,0 +1,76 @@
+/* - Your Styles Here - */
+/* line 10, ../sass/style.scss */
+#main-content {
+  width: 100%;
+  max-width: 960px;
+}
+
+/* line 16, ../sass/style.scss */
+.the-map {
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+}
+/* line 21, ../sass/style.scss */
+.the-map path {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+/* line 26, ../sass/style.scss */
+.the-map .background {
+  fill: none;
+  pointer-events: all;
+}
+/* line 31, ../sass/style.scss */
+.the-map .feature {
+  fill: #ccc;
+  cursor: pointer;
+}
+/* line 36, ../sass/style.scss */
+.the-map .feature.active {
+  fill: #fcc062;
+}
+/* line 41, ../sass/style.scss */
+.the-map .group.states {
+  visibility: visible;
+}
+/* line 45, ../sass/style.scss */
+.the-map path.state {
+  fill: #c2253a;
+}
+/* line 49, ../sass/style.scss */
+.the-map path.state-boundaries {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  fill: none;
+}
+/* line 55, ../sass/style.scss */
+.the-map .group.districts {
+  visibility: hidden;
+}
+/* line 59, ../sass/style.scss */
+.the-map path.district {
+  stroke: #fff;
+  stroke-width: .5px;
+  fill: #0672a0;
+}
+/* line 65, ../sass/style.scss */
+.the-map path.district-boundaries {
+  stroke: #fff;
+  stroke-width: .5px;
+  fill: none;
+}
+/* line 72, ../sass/style.scss */
+.the-map .group.counties {
+  visibility: hidden;
+}
+/* line 76, ../sass/style.scss */
+.the-map path.county {
+  stroke: #fff;
+  stroke-width: .5px;
+  fill: #61bc60;
+}
+
+/* - Narrow desktop view - */
+/* - iPad view - */
+/* - Mobile view - */
