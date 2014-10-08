@@ -312,6 +312,7 @@ var theMap = {
         
 
             $(".loading").hide();
+            $(".the-map svg").fadeIn();
             theMap.updateStates();
 
     },

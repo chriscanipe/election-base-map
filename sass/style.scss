@@ -22,6 +22,10 @@ section {
 	height: 500px;
 	background-color: #fff;
 
+	svg {
+		display: none;
+	}
+
 	.loading {
 		position: absolute;
 		display: none;

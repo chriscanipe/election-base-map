@@ -17,64 +17,68 @@ section {
   background-color: #fff;
 }
 /* line 25, ../sass/style.scss */
+.the-map svg {
+  display: none;
+}
+/* line 29, ../sass/style.scss */
 .the-map .loading {
   position: absolute;
   display: none;
 }
-/* line 30, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .the-map path {
   stroke-linejoin: round;
   stroke-linecap: round;
 }
-/* line 35, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .the-map .background {
   fill: none;
   pointer-events: all;
 }
-/* line 40, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .the-map .feature {
   cursor: pointer;
 }
-/* line 45, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .the-map .feature.active {
   stroke: #000;
   stroke-width: 1px;
 }
-/* line 51, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .the-map .group.states {
   visibility: visible;
 }
-/* line 55, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .the-map path.state {
   stroke: #FFF;
 }
-/* line 60, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .the-map path.state-boundaries {
   stroke: #fff;
   stroke-width: 1px;
   fill: none;
 }
-/* line 66, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .the-map .group.districts {
   visibility: hidden;
 }
-/* line 70, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .the-map path.district {
   stroke: #fff;
   stroke-width: .5px;
 }
-/* line 76, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .the-map path.district-boundaries {
   stroke: #fff;
   stroke-width: .5px;
   fill: none;
   display: none;
 }
-/* line 84, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .the-map .group.counties {
   visibility: hidden;
 }
-/* line 88, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 .the-map path.county {
   stroke: #fff;
   stroke-width: .5px;
