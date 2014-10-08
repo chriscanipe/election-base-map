@@ -455,6 +455,9 @@ function setNav() {
     $(".btn.view-state").on("click", function() {
         currView = $(this).attr("val");
 
+        $(".btn.view-state").removeClass("active");
+        $(this).addClass("active");
+
         if (currView === "senate" || currView == "gov") {
             theMap.updateStates();
             d3.selectAll(".group.districts, .group.counties").style("visibility", "hidden");
